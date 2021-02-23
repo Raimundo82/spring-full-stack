@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: demo
+
+server:
+  port: 5000
+
+app:
+  datasource:
+    jdbc-url: jdbc:postgresql://demodb.cpossfjtpli7.eu-west-3.rds.amazonaws.com:5432/demodb
+    username: raimundo
+    password: raimundo
+    pool-size: 30

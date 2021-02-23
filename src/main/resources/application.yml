@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: @spring.profiles.active@
+app:
+  datasource:
+    jdbc-url: jdbc:postgresql://localhost:5432/fullstackdb
+    username: raimundo
+    password: raimundo
+    pool-size: 30
